@@ -246,21 +246,7 @@ a:hover {
   /* -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl; */}
-	.logo{
-		position:absolute; right:30px; top:30px; width: 300px; 
-	}
-@media screen and (max-width: 2100px){
-	.no-js .menu-panel {
-		display: none;
-	}
 
-	.no-js .container {
-		padding: 0;
-	}
-	.logo{
-		position:absolute; right:30px; top:30px; width: 200px; 
-	}
-}
 @media screen and (max-width: 800px){
 	.no-js .menu-panel {
 		display: none;
@@ -275,8 +261,5 @@ a:hover {
 	.menu-panel,
 	.content {
 		font-size: 75%;
-	}
-	.logo{
-		position:absolute; right:30px; top:30px; width: 100px; 
 	}
 }
