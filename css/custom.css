@@ -262,4 +262,7 @@ a:hover {
 	.content {
 		font-size: 75%;
 	}
+	.lobo{
+		width: 100px !important;
+	}
 }
