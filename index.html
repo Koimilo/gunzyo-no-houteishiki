@@ -51,7 +51,7 @@
   <div class="text-white text-center d-flex align-items-center py-5 px-4">
     <div style="margin:0 auto;">
       <h3 class="card-title pt-2"><strong><img src="01/assets/gunzyo_logo.png" style="width:500px; max-width:95%;"></strong></h3>
-      <a class="btn btn-cyan"><i class="fas fa-clone left"></i> 読む</a>
+      <a class="btn btn-cyan" data-toggle="modal" data-target="#stories"><i class="fas fa-clone left"></i> 読む</a>
     </div>
   </div>
 </div>
@@ -67,6 +67,9 @@
 <ul class="list-group">
   <li class="list-group-item">
     <div class="md-v-line"></div><i class="fas fa-calendar-day mr-3"></i> 公開日: 2021/OO/XX
+  </li>
+  <li class="list-group-item">
+    <div class="md-v-line"></div><i class="fas fa-calendar-day mr-3"></i> 最終更新: 2021/CC/AA
   </li>
   <li class="list-group-item">
     <div class="md-v-line"></div><i class="fas fa-user mr-3"></i> 著者: めろん
@@ -85,5 +88,37 @@
 <a href="#"><i class="fab fa-twitter text-dark"></i></a> | <a href="#"><i class="fab fa-discord text-dark"></i></a>
 </p>
 </div>
+
+<div class="modal fade right" id="stories" tabindex="-1" role="dialog" aria-labelledby="stories-title"
+  aria-hidden="true">
+  <div class="modal-dialog modal-full-height modal-right" role="document">
+
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="stories-title"><img src="01/assets/gunzyo_logo.png" style="width:100%;"></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        読みたいお話を選んでください。<hr>
+        <div class="list-group">
+  <a href="./01" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-2 h5">第一話</h5>
+      <small class="text-muted">2021/OO/XX</small>
+    </div>
+    <p class="mb-2">第一話のあらすじ</p>
+  </a>
+</div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
