@@ -1,5 +1,9 @@
 /* Base */
 
+body{
+    overflow-x: hidden;
+}
+
 @media screen and (min-width: 992px) {
 .border-top-menu{
       position: relative;
@@ -43,12 +47,12 @@ hr.st01:after {
   font-size: 18px; 
 }
 
-nav a {
+nav ul a {
   position: relative;
   display: inline-block;
   text-decoration: none;
 }
-nav a::after {
+nav ul a::after {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -60,7 +64,7 @@ nav a::after {
   transform-origin: right top;
   transition: transform .3s;
 }
-nav a:hover::after {
+nav ul a:hover::after {
   transform-origin: left top;
   transform: scale(1, 1);
 }
