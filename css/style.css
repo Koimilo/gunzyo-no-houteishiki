@@ -1,3 +1,5 @@
+/* Base */
+
 @media screen and (min-width: 992px) {
 .border-top-menu{
       position: relative;
@@ -24,6 +26,7 @@ padding: 10px 0;
 }
 }
 
+/* Decorations */
 
 hr.st01 {
   border-top: 1px dashed #8c8b8b; 
@@ -38,4 +41,26 @@ hr.st01:after {
   background: #f0f0f0; 
   color: #8c8b8b; 
   font-size: 18px; 
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+nav a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+nav a:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
