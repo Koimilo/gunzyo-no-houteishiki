@@ -23,12 +23,21 @@ body{
 }
 }
 
+.copyright{
+    width: 40%;
+}
+
 @media screen and (max-width: 992px) {
 .border-top-menu{
 text-align: center;
 padding: 10px 0;
 }
+.copyright{
+    width: 80%;
 }
+
+}
+
 
 /* Decorations */
 
