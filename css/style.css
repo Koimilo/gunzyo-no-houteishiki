@@ -3,7 +3,9 @@
 body{
     overflow-x: hidden;
 }
-
+.book{
+  width: 90%;
+}
 @media screen and (min-width: 992px) {
 .border-top-menu{
       position: relative;
@@ -39,7 +41,9 @@ padding: 10px 0;
 .copyright{
     width: 90%;
 }
-
+.book{
+  width: 100%;
+}
 }
 
 
