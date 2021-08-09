@@ -11,10 +11,10 @@ body{
 .border-top-menu:before{
   content: '';
   position: absolute;
-  left: 50%;
+  left: 100px;
   top: -20px;/*線の上下位置*/
   display: inline-block;
-  width: 130%;/*線の長さ*/
+  width: 330px;/*線の長さ*/
   height: 5px;/*線の太さ*/
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);/*位置調整*/
@@ -26,7 +26,11 @@ body{
 .copyright{
     width: 40%;
 }
-
+.navbar{
+  box-shadow: none;
+  margin: 0 auto;
+  width: 80%;
+}
 @media screen and (max-width: 992px) {
 .border-top-menu{
 text-align: center;
