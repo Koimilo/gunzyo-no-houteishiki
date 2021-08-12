@@ -34,6 +34,10 @@ body{
   margin: 0 auto;
   width: 80%;
 }
+.ct{
+  width: 92%;
+  margin: 0 auto;
+}
 @media screen and (max-width: 992px) {
 .border-top-menu{
 text-align: center;
@@ -49,7 +53,7 @@ padding: 10px 0;
   box-shadow: none;
   margin: 0 auto;
   width: 100%;
-}
+}s
 }
 
 
@@ -68,6 +72,22 @@ hr.st01:after {
   background: #f0f0f0; 
   color: #8c8b8b; 
   font-size: 18px; 
+}
+
+
+hr.character {
+  border-top: 4px double #bbb;
+  text-align: center;
+}
+hr.character:after {
+  content: '…………';
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  background: #ccc;
+  color: #555;
+  font-size: 18px;
 }
 
 nav ul a {
