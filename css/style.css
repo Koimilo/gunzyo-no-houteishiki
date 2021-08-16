@@ -38,6 +38,12 @@ body{
   width: 92%;
   margin: 0 auto;
 }
+.story-head{
+  height:530px;
+}
+.story-head-image{
+  height:100%;
+}
 @media screen and (max-width: 992px) {
 .border-top-menu{
 text-align: center;
