@@ -59,10 +59,20 @@ padding: 10px 0;
   box-shadow: none;
   margin: 0 auto;
   width: 100%;
-}s
+}
+.story-head{
+  height:750px;
+}
+.s-02{
+  padding: 70px;
+}
 }
 
-
+@media screen and (max-width: 780px) {
+.s-02{
+  padding: 10px;
+}
+}
 /* Decorations */
 
 hr.st01 {
